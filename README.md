@@ -49,7 +49,7 @@ Get your API key: https://roboflow.com
 
 ## Training the Model (Colab)
 Open the included notebook:
-notebooks/train_yolov8_potholes.ipynb
+```notebooks/Pothole_Detector.ipynb```
 
 
 ## Steps:
@@ -57,3 +57,10 @@ notebooks/train_yolov8_potholes.ipynb
 2. Enter your Roboflow API Key when prompted
 3. Train YOLOv8
 4. Download best.pt weights
+5. Update the path of your best.pt file to detection+similarity.py file. 
+
+## Applications
+1. Smart Road Safety Systems
+2. Autonomous Vehicle Road Monitoring
+3. Municipal Maintenance Automation
+4. Civil Engineering & Infrastructure AI
