@@ -21,21 +21,6 @@ The system captures webcam video, detects potholes, draws bounding boxes, and au
 
 ---
 
-## 📂 Repository Structure
-
-📦 pothole-detection-yolo
-┣ 📁 weights/
-┃ ┗ best.pt # trained YOLOv8 model
-┣ 📁 notebooks/
-┃ ┗ train_yolov8_potholes.ipynb # Colab training notebook
-┣ 📁 src/
-┃ ┗ detect_potholes.py # real-time webcam detection
-┃ ┗ utils_similarity.py # SSIM/duplicate filtering logic
-┣ README.md
-┣ requirements.txt
-┗ .gitignore
----
-
 ## 🧠 Model & Dataset
 
 - **Dataset Source**: Custom pothole dataset collected & labeled on Roboflow
@@ -53,6 +38,7 @@ project = rf.workspace("stuti-jain").project("pothole-detector-pm96b")
 version = project.version(1)
 dataset = version.download("yolov8")
 Get your API key: https://roboflow.com
+```
 
 ## 🚀 Running Real-Time Detection
 ✅ Install Dependencies
