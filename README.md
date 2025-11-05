@@ -42,9 +42,9 @@ Get your API key: https://roboflow.com
 
 ## 🚀 Running Real-Time Detection
 ✅ Install Dependencies
-  pip install ultralytics opencv-python scikit-image numpy
+  ``` pip install ultralytics opencv-python scikit-image numpy ```
 ✅ Run Detection Script
-  python src/detect_potholes.py
+  ``` python src/detect_potholes.py ```
   Press q to quit the webcam stream.
 
 ## Training the Model (Colab)
